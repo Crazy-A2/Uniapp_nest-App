@@ -40,10 +40,10 @@ const title = ref('Hello')
 }
 </style>
 
-<!-- // <style lang="scss" scoped>
-// body{
-//   .text-area{
-//     background-color: rgb(189, 16, 16);
-//   }
-// }
-// </style> -->
+<!-- <style lang="scss" scoped>
+body{
+  .text-area{
+    background-color: rgb(189, 16, 16);
+  }
+}
+</style> -->
