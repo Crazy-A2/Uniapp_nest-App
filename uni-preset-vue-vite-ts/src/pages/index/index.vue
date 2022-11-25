@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+const title = ref('Hello')
+</script>
+
 <template>
   <view class="content">
     <image class="logo" src="/static/logo.png" />
@@ -7,11 +12,6 @@
     </view>
   </view>
 </template>
-
-<script setup lang="ts">
-import { ref } from 'vue'
-const title = ref('Hello')
-</script>
 
 <style>
 .content {
@@ -43,3 +43,11 @@ const title = ref('Hello')
 	font-size: 40px;
 }
 </style>
+
+<!-- // <style lang="scss" scoped>
+// body{
+//   .text-area{
+//     background-color: rgb(189, 16, 16);
+//   }
+// }
+// </style> -->
