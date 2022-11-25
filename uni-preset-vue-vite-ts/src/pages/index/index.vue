@@ -8,6 +8,7 @@ const title = ref('Hello')
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
       <text class="title">{{ title }}</text>
+	  <h1 class="txt">响应式布局调试用响应式布局调试用响应式布局调试用响应式布局调试用</h1>
     </view>
   </view>
 </template>
@@ -37,6 +38,9 @@ const title = ref('Hello')
 .title {
   font-size: 36rpx;
   color: #8f8f94;
+}
+.txt {
+	font-size: 40px;
 }
 </style>
 
